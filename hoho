@@ -1214,7 +1214,7 @@ Hoho.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
 Hoho.Position = UDim2.new(0.742672026, 0, 0.469468951, 0)
 Hoho.Size = UDim2.new(0, 75, 0, 19)
 Hoho.Font = Enum.Font.Ubuntu
-Hoho.Text = "Hoho Hub"
+Hoho.Text = "F3X"
 Hoho.TextColor3 = Color3.fromRGB(255, 255, 255)
 Hoho.TextSize = 12.000
 Hoho.TextWrapped = true
@@ -2045,7 +2045,7 @@ local function IMUZYJ_fake_script() -- Hoho.LocalScript
 	local btn = script.Parent
 	
 	btn.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+		loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 	end)
 end
 coroutine.wrap(IMUZYJ_fake_script)()
