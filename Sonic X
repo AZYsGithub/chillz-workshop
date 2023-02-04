@@ -1312,8 +1312,8 @@ UICorner_55.Parent = X_2
 
 Icon.Name = "Icon"
 Icon.Parent = SonicX
-Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Icon.BackgroundTransparency = 1.000
+Icon.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+Icon.BackgroundTransparency = 0
 Icon.Position = UDim2.new(0.0464059711, 0, 0, 0)
 Icon.Size = UDim2.new(0, 37, 0, 37)
 Icon.Image = "http://www.roblox.com/asset/?id=12372811765"
