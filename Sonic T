@@ -167,7 +167,7 @@ local UICorner_57 = Instance.new("UICorner")
 --Properties:
 
 SonicX.Name = "SonicX"
-SonicX.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SonicX.Parent = game.CoreGui
 SonicX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 SonicX.ResetOnSpawn = false
 
