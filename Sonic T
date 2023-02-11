@@ -194,6 +194,7 @@ SonicT.ResetOnSpawn = false
 MainGUI.Name = "MainGUI"
 MainGUI.Parent = SonicT
 MainGUI.Active = true
+MainGUI.Visible = false
 MainGUI.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 MainGUI.BorderColor3 = Color3.fromRGB(30, 30, 30)
 MainGUI.Position = UDim2.new(0.0750394911, 0, 0.0619834699, 0)
@@ -1804,7 +1805,6 @@ local function SQIF_fake_script() -- Savebtn.LocalScript
 		script.Parent.Parent.Active = false
 		script.Parent.Parent.Visible = false
 		script.Parent.Parent.Position = UDim2.new(1.019, 0 ,-0, 0)
-		task.wait(3)
 		if isfolder('test') then
 		    local AkaliNotif = loadstring(game:HttpGet("https://pastebin.com/raw/0YSLsjaj"))();
 		    local Notify = AkaliNotif.Notify;
