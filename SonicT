@@ -3,7 +3,7 @@
 
 -- Instances:
 
-local SonicX = Instance.new("ScreenGui")
+local SonicT = Instance.new("ScreenGui")
 local MainGUI = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
 local TabBar = Instance.new("Frame")
@@ -22,7 +22,7 @@ local HomeBtn = Instance.new("TextButton")
 local UICorner_7 = Instance.new("UICorner")
 local ScriptsBtn = Instance.new("TextButton")
 local UICorner_8 = Instance.new("UICorner")
-local ThemeBtn = Instance.new("TextButton")
+local FamousScripts = Instance.new("TextButton")
 local UICorner_9 = Instance.new("UICorner")
 local Tabs = Instance.new("Folder")
 local ExecutorTab = Instance.new("Frame")
@@ -35,19 +35,6 @@ local Clear = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
 local Save = Instance.new("TextButton")
 local UICorner_13 = Instance.new("UICorner")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local security = Instance.new("TextLabel")
-local EditorFrame = Instance.new("ScrollingFrame")
-local Source = Instance.new("TextBox")
-local Comments_ = Instance.new("TextLabel")
-local Globals_ = Instance.new("TextLabel")
-local Keywords_ = Instance.new("TextLabel")
-local RemoteHighlight_ = Instance.new("TextLabel")
-local Strings_ = Instance.new("TextLabel")
-local Tokens_ = Instance.new("TextLabel")
-local Numbers_ = Instance.new("TextLabel")
-local Lines = Instance.new("TextLabel")
 local Add = Instance.new("TextButton")
 local UICorner_14 = Instance.new("UICorner")
 local Decrease = Instance.new("TextButton")
@@ -71,6 +58,19 @@ local Savebtn = Instance.new("TextButton")
 local UICorner_21 = Instance.new("UICorner")
 local Copy = Instance.new("TextButton")
 local UICorner_22 = Instance.new("UICorner")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local security = Instance.new("TextLabel")
+local EditorFrame = Instance.new("ScrollingFrame")
+local Source = Instance.new("TextBox")
+local Comments_ = Instance.new("TextLabel")
+local Globals_ = Instance.new("TextLabel")
+local Keywords_ = Instance.new("TextLabel")
+local RemoteHighlight_ = Instance.new("TextLabel")
+local Strings_ = Instance.new("TextLabel")
+local Tokens_ = Instance.new("TextLabel")
+local Numbers_ = Instance.new("TextLabel")
+local Lines = Instance.new("TextLabel")
 local HomeTab = Instance.new("Frame")
 local Title_2 = Instance.new("Frame")
 local UICorner_23 = Instance.new("UICorner")
@@ -163,26 +163,41 @@ local ThemeTab = Instance.new("Frame")
 local Title_5 = Instance.new("Frame")
 local UICorner_57 = Instance.new("UICorner")
 local TextLabel_20 = Instance.new("TextLabel")
-local X_2 = Instance.new("TextButton")
+local FScripts = Instance.new("ScrollingFrame")
+local Hoho = Instance.new("TextButton")
 local UICorner_58 = Instance.new("UICorner")
-local Icon = Instance.new("ImageButton")
+local Synergy = Instance.new("TextButton")
 local UICorner_59 = Instance.new("UICorner")
+local NovaH = Instance.new("TextButton")
+local UICorner_60 = Instance.new("UICorner")
+local KeyBoard = Instance.new("TextButton")
+local UICorner_61 = Instance.new("UICorner")
+local IceHub = Instance.new("TextButton")
+local UICorner_62 = Instance.new("UICorner")
+local SwagM = Instance.new("TextButton")
+local UICorner_63 = Instance.new("UICorner")
+local ZenH = Instance.new("TextButton")
+local UICorner_64 = Instance.new("UICorner")
+local UIListLayout = Instance.new("UIListLayout")
+local X_2 = Instance.new("TextButton")
+local UICorner_65 = Instance.new("UICorner")
+local Icon = Instance.new("ImageButton")
+local UICorner_66 = Instance.new("UICorner")
 
 --Properties:
 
-SonicX.Name = "SonicX"
-SonicX.Parent = game.CoreGui
-SonicX.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-SonicX.ResetOnSpawn = false
+SonicT.Name = "SonicT"
+SonicT.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SonicT.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+SonicT.ResetOnSpawn = false
 
 MainGUI.Name = "MainGUI"
-MainGUI.Parent = SonicX
+MainGUI.Parent = SonicT
 MainGUI.Active = true
 MainGUI.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 MainGUI.BorderColor3 = Color3.fromRGB(30, 30, 30)
 MainGUI.Position = UDim2.new(0.0750394911, 0, 0.0619834699, 0)
 MainGUI.Size = UDim2.new(0, 544, 0, 260)
-MainGUI.Visible = false
 
 UICorner.CornerRadius = UDim.new(0, 14)
 UICorner.Parent = MainGUI
@@ -299,21 +314,20 @@ ScriptsBtn.TextXAlignment = Enum.TextXAlignment.Left
 UICorner_8.CornerRadius = UDim.new(0, 1)
 UICorner_8.Parent = ScriptsBtn
 
-ThemeBtn.Name = "ThemeBtn"
-ThemeBtn.Parent = TabBar
-ThemeBtn.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-ThemeBtn.BorderColor3 = Color3.fromRGB(44, 44, 44)
-ThemeBtn.Position = UDim2.new(0, 0, 0.813545108, 0)
-ThemeBtn.Size = UDim2.new(0, 116, 0, 27)
-ThemeBtn.Visible = false
-ThemeBtn.Font = Enum.Font.Ubuntu
-ThemeBtn.Text = "     Theme"
-ThemeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
-ThemeBtn.TextSize = 14.000
-ThemeBtn.TextXAlignment = Enum.TextXAlignment.Left
+FamousScripts.Name = "Famous Scripts"
+FamousScripts.Parent = TabBar
+FamousScripts.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+FamousScripts.BorderColor3 = Color3.fromRGB(44, 44, 44)
+FamousScripts.Position = UDim2.new(0, 0, 0.813545108, 0)
+FamousScripts.Size = UDim2.new(0, 116, 0, 27)
+FamousScripts.Font = Enum.Font.Ubuntu
+FamousScripts.Text = "    Famous Scripts"
+FamousScripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+FamousScripts.TextSize = 14.000
+FamousScripts.TextXAlignment = Enum.TextXAlignment.Left
 
 UICorner_9.CornerRadius = UDim.new(0, 1)
-UICorner_9.Parent = ThemeBtn
+UICorner_9.Parent = FamousScripts
 
 Tabs.Name = "Tabs"
 Tabs.Parent = MainGUI
@@ -385,164 +399,6 @@ Save.TextSize = 19.000
 Save.TextWrapped = true
 
 UICorner_13.Parent = Save
-
-ScrollingFrame.Parent = ExecutorTab
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-ScrollingFrame.BackgroundTransparency = 1.000
-ScrollingFrame.BorderColor3 = Color3.fromRGB(30, 30, 30)
-ScrollingFrame.Position = UDim2.new(0.0373831764, 0, 0.184615389, 0)
-ScrollingFrame.Size = UDim2.new(0, 402, 0, 165)
-
-ImageLabel_2.Parent = ScrollingFrame
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
-ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
-ImageLabel_2.BorderSizePixel = 0
-ImageLabel_2.Position = UDim2.new(-0.000357856974, 0, -0.0536057726, 27)
-ImageLabel_2.Size = UDim2.new(0, 388, 0, 100000000)
-
-security.Name = "security"
-security.Parent = ImageLabel_2
-security.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-security.Size = UDim2.new(0, 552, 0, 258)
-security.Visible = false
-security.Font = Enum.Font.Code
-security.TextColor3 = Color3.fromRGB(0, 0, 0)
-security.TextSize = 14.000
-
-EditorFrame.Name = "EditorFrame"
-EditorFrame.Parent = ImageLabel_2
-EditorFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
-EditorFrame.BackgroundTransparency = 1.000
-EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
-EditorFrame.Size = UDim2.new(1, 0, 1, 0)
-EditorFrame.ZIndex = 3
-EditorFrame.BottomImage = "rbxassetid://148970562"
-EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
-EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
-EditorFrame.MidImage = "rbxassetid://148970562"
-EditorFrame.ScrollBarThickness = 5
-EditorFrame.TopImage = "rbxassetid://148970562"
-
-Source.Name = "Source"
-Source.Parent = EditorFrame
-Source.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Source.BackgroundTransparency = 1.000
-Source.Position = UDim2.new(0, 30, 0, 0)
-Source.Size = UDim2.new(0.945652187, 0, 1, 0)
-Source.ZIndex = 3
-Source.ClearTextOnFocus = false
-Source.Font = Enum.Font.Code
-Source.MultiLine = true
-Source.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
-Source.Text = ""
-Source.TextColor3 = Color3.fromRGB(204, 204, 204)
-Source.TextSize = 15.000
-Source.TextXAlignment = Enum.TextXAlignment.Left
-Source.TextYAlignment = Enum.TextYAlignment.Top
-
-Comments_.Name = "Comments_"
-Comments_.Parent = Source
-Comments_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Comments_.BackgroundTransparency = 1.000
-Comments_.Size = UDim2.new(1, 0, 1, 0)
-Comments_.ZIndex = 5
-Comments_.Font = Enum.Font.Code
-Comments_.Text = ""
-Comments_.TextColor3 = Color3.fromRGB(59, 200, 59)
-Comments_.TextSize = 15.000
-Comments_.TextXAlignment = Enum.TextXAlignment.Left
-Comments_.TextYAlignment = Enum.TextYAlignment.Top
-
-Globals_.Name = "Globals_"
-Globals_.Parent = Source
-Globals_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Globals_.BackgroundTransparency = 1.000
-Globals_.Size = UDim2.new(1, 0, 1, 0)
-Globals_.ZIndex = 5
-Globals_.Font = Enum.Font.Code
-Globals_.Text = ""
-Globals_.TextColor3 = Color3.fromRGB(132, 214, 247)
-Globals_.TextSize = 15.000
-Globals_.TextXAlignment = Enum.TextXAlignment.Left
-Globals_.TextYAlignment = Enum.TextYAlignment.Top
-
-Keywords_.Name = "Keywords_"
-Keywords_.Parent = Source
-Keywords_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Keywords_.BackgroundTransparency = 1.000
-Keywords_.Size = UDim2.new(1, 0, 1, 0)
-Keywords_.ZIndex = 5
-Keywords_.Font = Enum.Font.Code
-Keywords_.Text = ""
-Keywords_.TextColor3 = Color3.fromRGB(248, 109, 124)
-Keywords_.TextSize = 15.000
-Keywords_.TextXAlignment = Enum.TextXAlignment.Left
-Keywords_.TextYAlignment = Enum.TextYAlignment.Top
-
-RemoteHighlight_.Name = "RemoteHighlight_"
-RemoteHighlight_.Parent = Source
-RemoteHighlight_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-RemoteHighlight_.BackgroundTransparency = 1.000
-RemoteHighlight_.Size = UDim2.new(1, 0, 1, 0)
-RemoteHighlight_.ZIndex = 5
-RemoteHighlight_.Font = Enum.Font.Code
-RemoteHighlight_.Text = ""
-RemoteHighlight_.TextColor3 = Color3.fromRGB(0, 144, 255)
-RemoteHighlight_.TextSize = 15.000
-RemoteHighlight_.TextXAlignment = Enum.TextXAlignment.Left
-RemoteHighlight_.TextYAlignment = Enum.TextYAlignment.Top
-
-Strings_.Name = "Strings_"
-Strings_.Parent = Source
-Strings_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Strings_.BackgroundTransparency = 1.000
-Strings_.Size = UDim2.new(1, 0, 1, 0)
-Strings_.ZIndex = 5
-Strings_.Font = Enum.Font.Code
-Strings_.Text = ""
-Strings_.TextColor3 = Color3.fromRGB(173, 241, 149)
-Strings_.TextSize = 15.000
-Strings_.TextXAlignment = Enum.TextXAlignment.Left
-Strings_.TextYAlignment = Enum.TextYAlignment.Top
-
-Tokens_.Name = "Tokens_"
-Tokens_.Parent = Source
-Tokens_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Tokens_.BackgroundTransparency = 1.000
-Tokens_.Size = UDim2.new(1, 0, 1, 0)
-Tokens_.ZIndex = 5
-Tokens_.Font = Enum.Font.Code
-Tokens_.Text = ""
-Tokens_.TextColor3 = Color3.fromRGB(255, 255, 255)
-Tokens_.TextSize = 15.000
-Tokens_.TextXAlignment = Enum.TextXAlignment.Left
-Tokens_.TextYAlignment = Enum.TextYAlignment.Top
-
-Numbers_.Name = "Numbers_"
-Numbers_.Parent = Source
-Numbers_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Numbers_.BackgroundTransparency = 1.000
-Numbers_.Size = UDim2.new(1, 0, 1, 0)
-Numbers_.ZIndex = 4
-Numbers_.Font = Enum.Font.Code
-Numbers_.Text = ""
-Numbers_.TextColor3 = Color3.fromRGB(255, 198, 0)
-Numbers_.TextSize = 15.000
-Numbers_.TextXAlignment = Enum.TextXAlignment.Left
-Numbers_.TextYAlignment = Enum.TextYAlignment.Top
-
-Lines.Name = "Lines"
-Lines.Parent = EditorFrame
-Lines.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
-Lines.BorderColor3 = Color3.fromRGB(50, 50, 50)
-Lines.Size = UDim2.new(0, 29, 1, 0)
-Lines.ZIndex = 4
-Lines.Font = Enum.Font.Code
-Lines.Text = "1\\n"
-Lines.TextColor3 = Color3.fromRGB(255, 255, 255)
-Lines.TextSize = 15.000
-Lines.TextYAlignment = Enum.TextYAlignment.Top
 
 Add.Name = "Add"
 Add.Parent = ExecutorTab
@@ -703,12 +559,171 @@ Copy.TextWrapped = true
 
 UICorner_22.Parent = Copy
 
+ScrollingFrame.Parent = ExecutorTab
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
+ScrollingFrame.BackgroundTransparency = 1.000
+ScrollingFrame.BorderColor3 = Color3.fromRGB(30, 30, 30)
+ScrollingFrame.Position = UDim2.new(0.0373831764, 0, 0.184615389, 0)
+ScrollingFrame.Size = UDim2.new(0, 402, 0, 165)
+
+ImageLabel_2.Parent = ScrollingFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(-0.000357856974, 0, -0.0536057726, 27)
+ImageLabel_2.Size = UDim2.new(0, 388, 0, 100000000)
+
+security.Name = "security"
+security.Parent = ImageLabel_2
+security.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+security.Size = UDim2.new(0, 552, 0, 258)
+security.Visible = false
+security.Font = Enum.Font.Code
+security.TextColor3 = Color3.fromRGB(0, 0, 0)
+security.TextSize = 14.000
+
+EditorFrame.Name = "EditorFrame"
+EditorFrame.Parent = ImageLabel_2
+EditorFrame.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+EditorFrame.BackgroundTransparency = 1.000
+EditorFrame.BorderColor3 = Color3.fromRGB(61, 61, 61)
+EditorFrame.Size = UDim2.new(1, 0, 1, 0)
+EditorFrame.ZIndex = 3
+EditorFrame.BottomImage = "rbxassetid://148970562"
+EditorFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
+EditorFrame.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+EditorFrame.MidImage = "rbxassetid://148970562"
+EditorFrame.ScrollBarThickness = 5
+EditorFrame.TopImage = "rbxassetid://148970562"
+
+Source.Name = "Source"
+Source.Parent = EditorFrame
+Source.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Source.BackgroundTransparency = 1.000
+Source.Position = UDim2.new(0, 30, 0, 0)
+Source.Size = UDim2.new(0.945652187, 0, 1, 0)
+Source.ZIndex = 3
+Source.ClearTextOnFocus = false
+Source.Font = Enum.Font.Code
+Source.MultiLine = true
+Source.PlaceholderColor3 = Color3.fromRGB(204, 204, 204)
+Source.Text = ""
+Source.TextColor3 = Color3.fromRGB(204, 204, 204)
+Source.TextSize = 15.000
+Source.TextXAlignment = Enum.TextXAlignment.Left
+Source.TextYAlignment = Enum.TextYAlignment.Top
+
+Comments_.Name = "Comments_"
+Comments_.Parent = Source
+Comments_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Comments_.BackgroundTransparency = 1.000
+Comments_.Size = UDim2.new(1, 0, 1, 0)
+Comments_.ZIndex = 5
+Comments_.Font = Enum.Font.Code
+Comments_.Text = ""
+Comments_.TextColor3 = Color3.fromRGB(59, 200, 59)
+Comments_.TextSize = 15.000
+Comments_.TextXAlignment = Enum.TextXAlignment.Left
+Comments_.TextYAlignment = Enum.TextYAlignment.Top
+
+Globals_.Name = "Globals_"
+Globals_.Parent = Source
+Globals_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Globals_.BackgroundTransparency = 1.000
+Globals_.Size = UDim2.new(1, 0, 1, 0)
+Globals_.ZIndex = 5
+Globals_.Font = Enum.Font.Code
+Globals_.Text = ""
+Globals_.TextColor3 = Color3.fromRGB(132, 214, 247)
+Globals_.TextSize = 15.000
+Globals_.TextXAlignment = Enum.TextXAlignment.Left
+Globals_.TextYAlignment = Enum.TextYAlignment.Top
+
+Keywords_.Name = "Keywords_"
+Keywords_.Parent = Source
+Keywords_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Keywords_.BackgroundTransparency = 1.000
+Keywords_.Size = UDim2.new(1, 0, 1, 0)
+Keywords_.ZIndex = 5
+Keywords_.Font = Enum.Font.Code
+Keywords_.Text = ""
+Keywords_.TextColor3 = Color3.fromRGB(248, 109, 124)
+Keywords_.TextSize = 15.000
+Keywords_.TextXAlignment = Enum.TextXAlignment.Left
+Keywords_.TextYAlignment = Enum.TextYAlignment.Top
+
+RemoteHighlight_.Name = "RemoteHighlight_"
+RemoteHighlight_.Parent = Source
+RemoteHighlight_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+RemoteHighlight_.BackgroundTransparency = 1.000
+RemoteHighlight_.Size = UDim2.new(1, 0, 1, 0)
+RemoteHighlight_.ZIndex = 5
+RemoteHighlight_.Font = Enum.Font.Code
+RemoteHighlight_.Text = ""
+RemoteHighlight_.TextColor3 = Color3.fromRGB(0, 144, 255)
+RemoteHighlight_.TextSize = 15.000
+RemoteHighlight_.TextXAlignment = Enum.TextXAlignment.Left
+RemoteHighlight_.TextYAlignment = Enum.TextYAlignment.Top
+
+Strings_.Name = "Strings_"
+Strings_.Parent = Source
+Strings_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Strings_.BackgroundTransparency = 1.000
+Strings_.Size = UDim2.new(1, 0, 1, 0)
+Strings_.ZIndex = 5
+Strings_.Font = Enum.Font.Code
+Strings_.Text = ""
+Strings_.TextColor3 = Color3.fromRGB(173, 241, 149)
+Strings_.TextSize = 15.000
+Strings_.TextXAlignment = Enum.TextXAlignment.Left
+Strings_.TextYAlignment = Enum.TextYAlignment.Top
+
+Tokens_.Name = "Tokens_"
+Tokens_.Parent = Source
+Tokens_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tokens_.BackgroundTransparency = 1.000
+Tokens_.Size = UDim2.new(1, 0, 1, 0)
+Tokens_.ZIndex = 5
+Tokens_.Font = Enum.Font.Code
+Tokens_.Text = ""
+Tokens_.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tokens_.TextSize = 15.000
+Tokens_.TextXAlignment = Enum.TextXAlignment.Left
+Tokens_.TextYAlignment = Enum.TextYAlignment.Top
+
+Numbers_.Name = "Numbers_"
+Numbers_.Parent = Source
+Numbers_.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Numbers_.BackgroundTransparency = 1.000
+Numbers_.Size = UDim2.new(1, 0, 1, 0)
+Numbers_.ZIndex = 4
+Numbers_.Font = Enum.Font.Code
+Numbers_.Text = ""
+Numbers_.TextColor3 = Color3.fromRGB(255, 198, 0)
+Numbers_.TextSize = 15.000
+Numbers_.TextXAlignment = Enum.TextXAlignment.Left
+Numbers_.TextYAlignment = Enum.TextYAlignment.Top
+
+Lines.Name = "Lines"
+Lines.Parent = EditorFrame
+Lines.BackgroundColor3 = Color3.fromRGB(34, 34, 34)
+Lines.BorderColor3 = Color3.fromRGB(50, 50, 50)
+Lines.Size = UDim2.new(0, 29, 1, 0)
+Lines.ZIndex = 4
+Lines.Font = Enum.Font.Code
+Lines.Text = "1\\n"
+Lines.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lines.TextSize = 15.000
+Lines.TextYAlignment = Enum.TextYAlignment.Top
+
 HomeTab.Name = "HomeTab"
 HomeTab.Parent = Tabs
 HomeTab.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 HomeTab.BackgroundTransparency = 1.000
 HomeTab.Position = UDim2.new(0.212346643, 0, 0, 0)
 HomeTab.Size = UDim2.new(0, 428, 0, 260)
+HomeTab.Visible = false
 
 Title_2.Name = "Title"
 Title_2.Parent = HomeTab
@@ -815,7 +830,7 @@ TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.BackgroundTransparency = 1.000
 TextLabel_12.Size = UDim2.new(0, 195, 0, 33)
 TextLabel_12.Font = Enum.Font.SourceSans
-TextLabel_12.Text = "Sonic T"
+TextLabel_12.Text = "Sonic X"
 TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 25.000
 TextLabel_12.TextWrapped = true
@@ -859,7 +874,6 @@ ScriptsTab.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 ScriptsTab.BackgroundTransparency = 1.000
 ScriptsTab.Position = UDim2.new(0.212346643, 0, 0, 0)
 ScriptsTab.Size = UDim2.new(0, 428, 0, 260)
-ScriptsTab.Visible = false
 
 Title_3.Name = "Title"
 Title_3.Parent = ScriptsTab
@@ -1336,10 +1350,113 @@ TextLabel_20.BackgroundTransparency = 1.000
 TextLabel_20.Position = UDim2.new(0.264636993, 0, 0, 0)
 TextLabel_20.Size = UDim2.new(0, 200, 0, 33)
 TextLabel_20.Font = Enum.Font.SourceSans
-TextLabel_20.Text = "SonicX - Executor"
+TextLabel_20.Text = "Sonic T - Famous Scripts"
 TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_20.TextSize = 25.000
+TextLabel_20.TextSize = 23.000
 TextLabel_20.TextWrapped = true
+
+FScripts.Name = "FScripts"
+FScripts.Parent = ThemeTab
+FScripts.Active = true
+FScripts.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+FScripts.BorderColor3 = Color3.fromRGB(22, 22, 22)
+FScripts.Position = UDim2.new(0.0443925224, 0, 0.209866211, 0)
+FScripts.Size = UDim2.new(0, 389, 0, 183)
+
+Hoho.Name = "Hoho"
+Hoho.Parent = FScripts
+Hoho.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+Hoho.Position = UDim2.new(0.0257069413, 0, 0.0115384618, 0)
+Hoho.Size = UDim2.new(0, 161, 0, 29)
+Hoho.Font = Enum.Font.Ubuntu
+Hoho.Text = "Hoho Hub"
+Hoho.TextColor3 = Color3.fromRGB(255, 255, 255)
+Hoho.TextSize = 19.000
+Hoho.TextWrapped = true
+
+UICorner_58.Parent = Hoho
+
+Synergy.Name = "Synergy"
+Synergy.Parent = FScripts
+Synergy.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+Synergy.Position = UDim2.new(0.0257069413, 0, 0.084615387, 0)
+Synergy.Size = UDim2.new(0, 161, 0, 29)
+Synergy.Font = Enum.Font.Ubuntu
+Synergy.Text = "Synergy BetterBypasser"
+Synergy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Synergy.TextScaled = true
+Synergy.TextSize = 20.000
+Synergy.TextWrapped = true
+
+UICorner_59.Parent = Synergy
+
+NovaH.Name = "NovaH"
+NovaH.Parent = FScripts
+NovaH.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+NovaH.Position = UDim2.new(0.473007709, 0, 0.16538462, 0)
+NovaH.Size = UDim2.new(0, 161, 0, 29)
+NovaH.Font = Enum.Font.Ubuntu
+NovaH.Text = "Neva Hub"
+NovaH.TextColor3 = Color3.fromRGB(255, 255, 255)
+NovaH.TextSize = 19.000
+NovaH.TextWrapped = true
+
+UICorner_60.Parent = NovaH
+
+KeyBoard.Name = "KeyBoard"
+KeyBoard.Parent = FScripts
+KeyBoard.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+KeyBoard.Position = UDim2.new(0.473007709, 0, 0.0826923102, 0)
+KeyBoard.Size = UDim2.new(0, 161, 0, 29)
+KeyBoard.Font = Enum.Font.Ubuntu
+KeyBoard.Text = "Keyboard Mobile"
+KeyBoard.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyBoard.TextSize = 18.000
+KeyBoard.TextWrapped = true
+
+UICorner_61.Parent = KeyBoard
+
+IceHub.Name = "IceHub"
+IceHub.Parent = FScripts
+IceHub.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+IceHub.Position = UDim2.new(0.0257069413, 0, 0.163461551, 0)
+IceHub.Size = UDim2.new(0, 161, 0, 29)
+IceHub.Font = Enum.Font.Ubuntu
+IceHub.Text = "Ice Hub"
+IceHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+IceHub.TextSize = 23.000
+IceHub.TextWrapped = true
+
+UICorner_62.Parent = IceHub
+
+SwagM.Name = "SwagM"
+SwagM.Parent = FScripts
+SwagM.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+SwagM.Position = UDim2.new(0.473007709, 0, 0.0121538341, 0)
+SwagM.Size = UDim2.new(0, 161, 0, 29)
+SwagM.Font = Enum.Font.Ubuntu
+SwagM.Text = "Swag Mode"
+SwagM.TextColor3 = Color3.fromRGB(255, 255, 255)
+SwagM.TextSize = 19.000
+SwagM.TextWrapped = true
+
+UICorner_63.Parent = SwagM
+
+ZenH.Name = "ZenH"
+ZenH.Parent = FScripts
+ZenH.BackgroundColor3 = Color3.fromRGB(208, 0, 0)
+ZenH.Position = UDim2.new(0.0257069468, 0, 0.244230777, 0)
+ZenH.Size = UDim2.new(0, 161, 0, 29)
+ZenH.Font = Enum.Font.Ubuntu
+ZenH.Text = "Zen Hub"
+ZenH.TextColor3 = Color3.fromRGB(255, 255, 255)
+ZenH.TextSize = 19.000
+ZenH.TextWrapped = true
+
+UICorner_64.Parent = ZenH
+
+UIListLayout.Parent = FScripts
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 
 X_2.Name = "X"
 X_2.Parent = MainGUI
@@ -1352,21 +1469,21 @@ X_2.Text = "X"
 X_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 X_2.TextSize = 19.000
 
-UICorner_58.CornerRadius = UDim.new(0, 14)
-UICorner_58.Parent = X_2
+UICorner_65.CornerRadius = UDim.new(0, 14)
+UICorner_65.Parent = X_2
 
 Icon.Name = "Icon"
-Icon.Parent = SonicX
+Icon.Parent = SonicT
 Icon.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
 Icon.Position = UDim2.new(0.0464059711, 0, 0, 0)
 Icon.Size = UDim2.new(0, 37, 0, 37)
 Icon.Image = "http://www.roblox.com/asset/?id=12372811765"
 
-UICorner_59.Parent = Icon
+UICorner_66.Parent = Icon
 
 -- Scripts:
 
-local function BALLZG_fake_script() -- ImageLabel.LocalScript 
+local function XYEJALO_fake_script() -- ImageLabel.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel)
 
 	local Players = game:GetService("Players")
@@ -1374,16 +1491,16 @@ local function BALLZG_fake_script() -- ImageLabel.LocalScript
 	local img = script.Parent
 	img.Image = Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
 end
-coroutine.wrap(BALLZG_fake_script)()
-local function VSLNW_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(XYEJALO_fake_script)()
+local function WBZT_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local txt = script.Parent
 	
 	txt.Text = game:GetService("Players").LocalPlayer.DisplayName
 end
-coroutine.wrap(VSLNW_fake_script)()
-local function EXYMYZ_fake_script() -- TextLabel_2.LocalScript 
+coroutine.wrap(WBZT_fake_script)()
+local function SIFCBU_fake_script() -- TextLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local textObject = script.Parent
@@ -1396,8 +1513,8 @@ local function EXYMYZ_fake_script() -- TextLabel_2.LocalScript
 	end
 	
 end
-coroutine.wrap(EXYMYZ_fake_script)()
-local function CIUJ_fake_script() -- BasicHaxBtn.LocalScript 
+coroutine.wrap(SIFCBU_fake_script)()
+local function PYXF_fake_script() -- BasicHaxBtn.LocalScript 
 	local script = Instance.new('LocalScript', BasicHaxBtn)
 
 	local btn = script.Parent
@@ -1433,8 +1550,8 @@ local function CIUJ_fake_script() -- BasicHaxBtn.LocalScript
 		basichax.Active = true
 	end)
 end
-coroutine.wrap(CIUJ_fake_script)()
-local function UTYD_fake_script() -- ExecutorBtn.LocalScript 
+coroutine.wrap(PYXF_fake_script)()
+local function EWMSLCZ_fake_script() -- ExecutorBtn.LocalScript 
 	local script = Instance.new('LocalScript', ExecutorBtn)
 
 	local btn = script.Parent
@@ -1470,8 +1587,8 @@ local function UTYD_fake_script() -- ExecutorBtn.LocalScript
 		basichax.Active = false
 	end)
 end
-coroutine.wrap(UTYD_fake_script)()
-local function YXIUZL_fake_script() -- HomeBtn.LocalScript 
+coroutine.wrap(EWMSLCZ_fake_script)()
+local function ARMIFU_fake_script() -- HomeBtn.LocalScript 
 	local script = Instance.new('LocalScript', HomeBtn)
 
 	local btn = script.Parent
@@ -1506,8 +1623,8 @@ local function YXIUZL_fake_script() -- HomeBtn.LocalScript
 		basichax.Active = false
 	end)
 end
-coroutine.wrap(YXIUZL_fake_script)()
-local function VQORH_fake_script() -- ScriptsBtn.LocalScript 
+coroutine.wrap(ARMIFU_fake_script)()
+local function CXGY_fake_script() -- ScriptsBtn.LocalScript 
 	local script = Instance.new('LocalScript', ScriptsBtn)
 
 	local btn = script.Parent
@@ -1543,9 +1660,9 @@ local function VQORH_fake_script() -- ScriptsBtn.LocalScript
 		basichax.Active = false
 	end)
 end
-coroutine.wrap(VQORH_fake_script)()
-local function HEZAL_fake_script() -- ThemeBtn.LocalScript 
-	local script = Instance.new('LocalScript', ThemeBtn)
+coroutine.wrap(CXGY_fake_script)()
+local function SOQE_fake_script() -- FamousScripts.LocalScript 
+	local script = Instance.new('LocalScript', FamousScripts)
 
 	local btn = script.Parent
 	
@@ -1581,8 +1698,8 @@ local function HEZAL_fake_script() -- ThemeBtn.LocalScript
 		basichax.Active = false
 	end)
 end
-coroutine.wrap(HEZAL_fake_script)()
-local function FCZCPVG_fake_script() -- Exec.LocalScript 
+coroutine.wrap(SOQE_fake_script)()
+local function YVVNTTH_fake_script() -- Exec.LocalScript 
 	local script = Instance.new('LocalScript', Exec)
 
 	local txtbox = script.Parent.Parent.ScrollingFrame.ImageLabel.EditorFrame.Source
@@ -1593,8 +1710,8 @@ local function FCZCPVG_fake_script() -- Exec.LocalScript
 	end)
 	
 end
-coroutine.wrap(FCZCPVG_fake_script)()
-local function EBHL_fake_script() -- Clear.LocalScript 
+coroutine.wrap(YVVNTTH_fake_script)()
+local function RORL_fake_script() -- Clear.LocalScript 
 	local script = Instance.new('LocalScript', Clear)
 
 	local txtbox = script.Parent.Parent.ScrollingFrame.ImageLabel.EditorFrame.Source
@@ -1604,8 +1721,8 @@ local function EBHL_fake_script() -- Clear.LocalScript
 		txtbox.Text = ""
 	end)
 end
-coroutine.wrap(EBHL_fake_script)()
-local function XVUH_fake_script() -- Save.LocalScript 
+coroutine.wrap(RORL_fake_script)()
+local function ZYIT_fake_script() -- Save.LocalScript 
 	local script = Instance.new('LocalScript', Save)
 
 	local btn =script.Parent
@@ -1615,8 +1732,116 @@ local function XVUH_fake_script() -- Save.LocalScript
 		script.Parent.Parent.Parent.ExecutorTab.SaveDialog.Active = true
 	end)
 end
-coroutine.wrap(XVUH_fake_script)()
-local function ERCV_fake_script() -- ImageLabel_2.LocalScript 
+coroutine.wrap(ZYIT_fake_script)()
+local function DEIW_fake_script() -- Add.LocalScript 
+	local script = Instance.new('LocalScript', Add)
+
+	local scrollingFrame = script.Parent.Parent.ScrollingFrame
+	
+	local function onClick()
+		local canvasSize = scrollingFrame.CanvasSize
+		canvasSize = UDim2.new(canvasSize.X.Scale, canvasSize.X.Offset, canvasSize.Y.Scale, canvasSize.Y.Offset + 70)
+		scrollingFrame.CanvasSize = canvasSize
+	end
+	
+	script.Parent.MouseButton1Click:Connect(onClick)
+	
+end
+coroutine.wrap(DEIW_fake_script)()
+local function MMZCSC_fake_script() -- Decrease.LocalScript 
+	local script = Instance.new('LocalScript', Decrease)
+
+	local scrollingFrame = script.Parent.Parent.ScrollingFrame
+	
+	local function onClick()
+		local canvasSize = scrollingFrame.CanvasSize
+		if canvasSize.Y.Offset >= 60 then
+			canvasSize = UDim2.new(canvasSize.X.Scale, canvasSize.X.Offset, canvasSize.Y.Scale, canvasSize.Y.Offset - 70)
+			scrollingFrame.CanvasSize = canvasSize
+		end
+	end
+	
+	script.Parent.MouseButton1Click:Connect(onClick)
+	
+end
+coroutine.wrap(MMZCSC_fake_script)()
+local function JUULWPI_fake_script() -- X.LocalScript 
+	local script = Instance.new('LocalScript', X)
+
+	local btn = script.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.Active = false
+		script.Parent.Parent.Parent.Position = UDim2.new(1.019, 0, -0, 0)
+	end)
+	
+	btn.MouseEnter:Connect(function()
+		btn.BackgroundColor3 = Color3.fromRGB(209, 0, 8)
+	end)
+	btn.MouseLeave:Connect(function()
+		btn.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+	end)
+end
+coroutine.wrap(JUULWPI_fake_script)()
+local function THQAZ_fake_script() -- SaveDialog.LocalScript 
+	local script = Instance.new('LocalScript', SaveDialog)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(THQAZ_fake_script)()
+local function SQIF_fake_script() -- Savebtn.LocalScript 
+	local script = Instance.new('LocalScript', Savebtn)
+
+	local txtbox = script.Parent.Parent.Parent.ScrollingFrame.ImageLabel.EditorFrame.Source
+	local name = script.Parent.Parent.FileName
+	local ex = script.Parent.Parent.FormatName
+	local btn = script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		writefile(""..name.Text..ex.Text.."", txtbox.Text)
+		script.Parent.Parent.Active = false
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Position = UDim2.new(1.019, 0 ,-0, 0)
+		if isfolder('test') then
+		    local AkaliNotif = loadstring(game:HttpGet("https://pastebin.com/raw/0YSLsjaj"))();
+		    local Notify = AkaliNotif.Notify;
+	
+	  	    wait(0.1);
+	
+		    Notify({
+			Description = "Successfully Saved Script Into Folder Workspace.";
+			Title = "File Name: "..name.Text..ex.Text.."";
+			Duration = 3;
+		    });
+		else
+		    local AkaliNotif = loadstring(game:HttpGet("https://pastebin.com/raw/0YSLsjaj"))();
+		    local Notify = AkaliNotif.Notify;
+	
+	  	    wait(0.1);
+	
+		    Notify({
+			Description = "Failed To Save Script Into Folder Workspace.";
+			Title = "File Name: "..name.Text..ex.Text.."";
+			Duration = 3;
+		    });
+		end
+	end)
+end
+coroutine.wrap(SQIF_fake_script)()
+local function AHBF_fake_script() -- Copy.LocalScript 
+	local script = Instance.new('LocalScript', Copy)
+
+	local txtbox = script.Parent.Parent.ScrollingFrame.ImageLabel.EditorFrame.Source
+	local btn =script.Parent
+	
+	btn.MouseButton1Click:Connect(function()
+		setclipboard(txtbox.Text)
+	end)
+end
+coroutine.wrap(AHBF_fake_script)()
+local function SYCKEJH_fake_script() -- ImageLabel_2.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_2)
 
 	local lua_keywords = {"and", "break", "do", "else", "elseif", "end", "false", "for", "function", "goto", "if", "in", "local", "nil", "not", "or", "repeat", "return", "then", "true", "until", "while"}
@@ -1783,103 +2008,8 @@ local function ERCV_fake_script() -- ImageLabel_2.LocalScript
 	highlight_source("Text")
 	Source.Changed:Connect(highlight_source)
 end
-coroutine.wrap(ERCV_fake_script)()
-local function INHKB_fake_script() -- Add.LocalScript 
-	local script = Instance.new('LocalScript', Add)
-
-	local scrollingFrame = script.Parent.Parent.ScrollingFrame
-	
-	local function onClick()
-		local canvasSize = scrollingFrame.CanvasSize
-		canvasSize = UDim2.new(canvasSize.X.Scale, canvasSize.X.Offset, canvasSize.Y.Scale, canvasSize.Y.Offset + 70)
-		scrollingFrame.CanvasSize = canvasSize
-	end
-	
-	script.Parent.MouseButton1Click:Connect(onClick)
-	
-end
-coroutine.wrap(INHKB_fake_script)()
-local function COOFHVO_fake_script() -- Decrease.LocalScript 
-	local script = Instance.new('LocalScript', Decrease)
-
-	local scrollingFrame = script.Parent.Parent.ScrollingFrame
-	
-	local function onClick()
-		local canvasSize = scrollingFrame.CanvasSize
-		if canvasSize.Y.Offset >= 60 then
-			canvasSize = UDim2.new(canvasSize.X.Scale, canvasSize.X.Offset, canvasSize.Y.Scale, canvasSize.Y.Offset - 70)
-			scrollingFrame.CanvasSize = canvasSize
-		end
-	end
-	
-	script.Parent.MouseButton1Click:Connect(onClick)
-	
-end
-coroutine.wrap(COOFHVO_fake_script)()
-local function BSDYA_fake_script() -- X.LocalScript 
-	local script = Instance.new('LocalScript', X)
-
-	local btn = script.Parent
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.Visible = false
-		script.Parent.Parent.Parent.Active = false
-		script.Parent.Parent.Parent.Position = UDim2.new(1.019, 0, -0, 0)
-	end)
-	
-	btn.MouseEnter:Connect(function()
-		btn.BackgroundColor3 = Color3.fromRGB(209, 0, 8)
-	end)
-	btn.MouseLeave:Connect(function()
-		btn.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
-	end)
-end
-coroutine.wrap(BSDYA_fake_script)()
-local function NPXUACB_fake_script() -- SaveDialog.LocalScript 
-	local script = Instance.new('LocalScript', SaveDialog)
-
-	script.Parent.Draggable = true
-	script.Parent.Active = true
-end
-coroutine.wrap(NPXUACB_fake_script)()
-local function ZFKLT_fake_script() -- Savebtn.LocalScript 
-	local script = Instance.new('LocalScript', Savebtn)
-
-	local txtbox = script.Parent.Parent.Parent.ScrollingFrame.ImageLabel.EditorFrame.Source
-	local name = script.Parent.Parent.FileName
-	local ex = script.Parent.Parent.FormatName
-	local btn = script.Parent
-	
-	btn.MouseButton1Click:Connect(function()
-		writefile(""..name.Text..ex.Text.."", txtbox.Text)
-		script.Parent.Parent.Active = false
-		script.Parent.Parent.Visible = false
-		script.Parent.Parent.Position = UDim2.new(1.019, 0 ,-0, 0)
-		local AkaliNotif = loadstring(game:HttpGet("https://pastebin.com/raw/0YSLsjaj"))();
-		local Notify = AkaliNotif.Notify;
-	
-		wait(0.1);
-	
-		Notify({
-			Description = "Successfully Saved Script Into Folder Workspace.";
-			Title = "File Name: "..name.Text..ex.Text..".";
-			Duration = 3;
-		});
-	end)
-end
-coroutine.wrap(ZFKLT_fake_script)()
-local function OIUJZ_fake_script() -- Copy.LocalScript 
-	local script = Instance.new('LocalScript', Copy)
-
-	local txtbox = script.Parent.Parent.ScrollingFrame.ImageLabel.EditorFrame.Source
-	local btn =script.Parent
-	
-	btn.MouseButton1Click:Connect(function()
-		setclipboard(txtbox.Text)
-	end)
-end
-coroutine.wrap(OIUJZ_fake_script)()
-local function HXPXYH_fake_script() -- ImageLabel_3.LocalScript 
+coroutine.wrap(SYCKEJH_fake_script)()
+local function XKCYT_fake_script() -- ImageLabel_3.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_3)
 
 	local Players = game:GetService("Players")
@@ -1887,8 +2017,8 @@ local function HXPXYH_fake_script() -- ImageLabel_3.LocalScript
 	local img = script.Parent
 	img.Image = Players:GetUserThumbnailAsync(3229297325, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
 end
-coroutine.wrap(HXPXYH_fake_script)()
-local function IHURMKC_fake_script() -- ImageLabel_4.LocalScript 
+coroutine.wrap(XKCYT_fake_script)()
+local function DVAWTR_fake_script() -- ImageLabel_4.LocalScript 
 	local script = Instance.new('LocalScript', ImageLabel_4)
 
 	local Players = game:GetService("Players")
@@ -1896,80 +2026,80 @@ local function IHURMKC_fake_script() -- ImageLabel_4.LocalScript
 	local img = script.Parent
 	img.Image = Players:GetUserThumbnailAsync(2020031856, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size420x420)
 end
-coroutine.wrap(IHURMKC_fake_script)()
-local function LFCVVAI_fake_script() -- CLink.LocalScript 
+coroutine.wrap(DVAWTR_fake_script)()
+local function HSMVNZM_fake_script() -- CLink.LocalScript 
 	local script = Instance.new('LocalScript', CLink)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		setclipboard("discord.gg/EXXcUpqymC")
 	end)
 end
-coroutine.wrap(LFCVVAI_fake_script)()
-local function FWDSCNY_fake_script() -- ToggleCFarm.LocalScript 
+coroutine.wrap(HSMVNZM_fake_script)()
+local function TTOSO_fake_script() -- ToggleCFarm.LocalScript 
 	local script = Instance.new('LocalScript', ToggleCFarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
 	end)
 end
-coroutine.wrap(FWDSCNY_fake_script)()
-local function IVBQYR_fake_script() -- FruitFinder.LocalScript 
+coroutine.wrap(TTOSO_fake_script)()
+local function DPHQU_fake_script() -- FruitFinder.LocalScript 
 	local script = Instance.new('LocalScript', FruitFinder)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/FruitFarmOp"))()
 	end)
 end
-coroutine.wrap(IVBQYR_fake_script)()
-local function RNKKA_fake_script() -- SonicHub.LocalScript 
+coroutine.wrap(DPHQU_fake_script)()
+local function ODQB_fake_script() -- SonicHub.LocalScript 
 	local script = Instance.new('LocalScript', SonicHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/SonicHub"))()
 	end)
 end
-coroutine.wrap(RNKKA_fake_script)()
-local function TXDWNH_fake_script() -- AutoBuyHaki.LocalScript 
+coroutine.wrap(ODQB_fake_script)()
+local function WLPL_fake_script() -- AutoBuyHaki.LocalScript 
 	local script = Instance.new('LocalScript', AutoBuyHaki)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/AutoBuyHakiColor"))()
 	end)
 end
-coroutine.wrap(TXDWNH_fake_script)()
-local function BBCQJ_fake_script() -- AutoBuySword.LocalScript 
+coroutine.wrap(WLPL_fake_script)()
+local function NODTM_fake_script() -- AutoBuySword.LocalScript 
 	local script = Instance.new('LocalScript', AutoBuySword)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/AutoBuyLegendarySword"))()
 	end)
 end
-coroutine.wrap(BBCQJ_fake_script)()
-local function RMIGZL_fake_script() -- AimbotBf.LocalScript 
+coroutine.wrap(NODTM_fake_script)()
+local function NKXQVP_fake_script() -- AimbotBf.LocalScript 
 	local script = Instance.new('LocalScript', AimbotBf)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/AutoBuyLegendarySword"))()
 	end)
 end
-coroutine.wrap(RMIGZL_fake_script)()
-local function AWSKTAC_fake_script() -- ChatSplitter.LocalScript 
+coroutine.wrap(NKXQVP_fake_script)()
+local function LYPY_fake_script() -- ChatSplitter.LocalScript 
 	local script = Instance.new('LocalScript', ChatSplitter)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/ChatBypasser-AZY/main/Chat%20Bypass%20-%20ChatSplitter(Source).lua"))()
 	end)
 end
-coroutine.wrap(AWSKTAC_fake_script)()
-local function JKPDARZ_fake_script() -- WIP.LocalScript 
+coroutine.wrap(LYPY_fake_script)()
+local function AJZHFB_fake_script() -- WIP.LocalScript 
 	local script = Instance.new('LocalScript', WIP)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/FruitFarmOp"))()
 	end)
 end
-coroutine.wrap(JKPDARZ_fake_script)()
-local function JQVS_fake_script() -- btnWS.LocalScript 
+coroutine.wrap(AJZHFB_fake_script)()
+local function KFHBMU_fake_script() -- btnWS.LocalScript 
 	local script = Instance.new('LocalScript', btnWS)
 
 	local txtbox = script.Parent.Parent.WS
@@ -1983,7 +2113,6 @@ local function JQVS_fake_script() -- btnWS.LocalScript
 			while true do
 				if value == true then
 					game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(txtbox.Text)
-					print(txtbox.Text)
 				elseif value == false then
 					break
 				end
@@ -2003,8 +2132,8 @@ local function JQVS_fake_script() -- btnWS.LocalScript
 		end
 	end)
 end
-coroutine.wrap(JQVS_fake_script)()
-local function VQLH_fake_script() -- btnJP.LocalScript 
+coroutine.wrap(KFHBMU_fake_script)()
+local function UHYDXHJ_fake_script() -- btnJP.LocalScript 
 	local script = Instance.new('LocalScript', btnJP)
 
 	local txtbox = script.Parent.Parent.JP
@@ -2018,7 +2147,6 @@ local function VQLH_fake_script() -- btnJP.LocalScript
 			while true do
 				if value == true then
 					game.Players.LocalPlayer.Character.Humanoid.JumpPower = tonumber(txtbox.Text)
-					print(txtbox.Text)
 				elseif value == false then
 					break
 				end
@@ -2038,8 +2166,8 @@ local function VQLH_fake_script() -- btnJP.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VQLH_fake_script)()
-local function FRZX_fake_script() -- IY.LocalScript 
+coroutine.wrap(UHYDXHJ_fake_script)()
+local function KOGYPK_fake_script() -- IY.LocalScript 
 	local script = Instance.new('LocalScript', IY)
 
 	local btn = script.Parent
@@ -2048,18 +2176,18 @@ local function FRZX_fake_script() -- IY.LocalScript
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(FRZX_fake_script)()
-local function IPFBI_fake_script() -- DexExp.LocalScript 
+coroutine.wrap(KOGYPK_fake_script)()
+local function XWRVTL_fake_script() -- DexExp.LocalScript 
 	local script = Instance.new('LocalScript', DexExp)
 
 	local btn = script.Parent
 	
 	btn.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Dex-2.0'))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Dex-2.0"))()
 	end)
 end
-coroutine.wrap(IPFBI_fake_script)()
-local function WBJJN_fake_script() -- Rspy.LocalScript 
+coroutine.wrap(XWRVTL_fake_script)()
+local function AQJS_fake_script() -- Rspy.LocalScript 
 	local script = Instance.new('LocalScript', Rspy)
 
 	local btn = script.Parent
@@ -2068,8 +2196,8 @@ local function WBJJN_fake_script() -- Rspy.LocalScript
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua"))();
 	end)
 end
-coroutine.wrap(WBJJN_fake_script)()
-local function CAPA_fake_script() -- F3X.LocalScript 
+coroutine.wrap(AQJS_fake_script)()
+local function CGQNO_fake_script() -- F3X.LocalScript 
 	local script = Instance.new('LocalScript', F3X)
 
 	local btn = script.Parent
@@ -2078,8 +2206,8 @@ local function CAPA_fake_script() -- F3X.LocalScript
 		loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
 	end)
 end
-coroutine.wrap(CAPA_fake_script)()
-local function MFTOWYX_fake_script() -- btnG.LocalScript 
+coroutine.wrap(CGQNO_fake_script)()
+local function CDHLS_fake_script() -- btnG.LocalScript 
 	local script = Instance.new('LocalScript', btnG)
 
 	local txtbox = script.Parent.Parent.G
@@ -2089,8 +2217,8 @@ local function MFTOWYX_fake_script() -- btnG.LocalScript
 		workspace.Gravity = tonumber(txtbox.Text)
 	end)
 end
-coroutine.wrap(MFTOWYX_fake_script)()
-function LDXY_fake_script() -- btnGR.LocalScript 
+coroutine.wrap(CDHLS_fake_script)()
+local function UJDOLW_fake_script() -- btnGR.LocalScript 
 	local script = Instance.new('LocalScript', btnGR)
 
 	local btn = script.Parent
@@ -2099,8 +2227,8 @@ function LDXY_fake_script() -- btnGR.LocalScript
 		workspace.Gravity = 196.2
 	end)
 end
-coroutine.wrap(LDXY_fake_script)()
-function ILNYQOO_fake_script() -- rj.LocalScript 
+coroutine.wrap(UJDOLW_fake_script)()
+local function EJXR_fake_script() -- rj.LocalScript 
 	local script = Instance.new('LocalScript', rj)
 
 	local btn = script.Parent
@@ -2109,25 +2237,81 @@ function ILNYQOO_fake_script() -- rj.LocalScript
 		game:GetService("TeleportService"):Teleport(game.PlaceId, game:GetService("Players").LocalPlayer)
 	end)
 end
-coroutine.wrap(ILNYQOO_fake_script)()
-function ZTDAQON_fake_script() -- shop.LocalScript 
+coroutine.wrap(EJXR_fake_script)()
+local function TITKRW_fake_script() -- shop.LocalScript 
 	local script = Instance.new('LocalScript', shop)
 
 	local btn = script.Parent
 	
 	btn.MouseButton1Click:Connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/MXk6CAxa"))()
+		loadstring(game:HttpGet("https://pastebin.com/raw/1BLDb5jL"))()
 	end)
 end
-coroutine.wrap(ZTDAQON_fake_script)()
-function USHEHZP_fake_script() -- MainGUI.LocalScript 
+coroutine.wrap(TITKRW_fake_script)()
+local function TOJIAFJ_fake_script() -- Hoho.LocalScript 
+	local script = Instance.new('LocalScript', Hoho)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+	end)
+end
+coroutine.wrap(TOJIAFJ_fake_script)()
+local function YQILUT_fake_script() -- Synergy.LocalScript 
+	local script = Instance.new('LocalScript', Synergy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/5dw519k1"))()
+	end)
+end
+coroutine.wrap(YQILUT_fake_script)()
+local function MONUDZD_fake_script() -- NovaH.LocalScript 
+	local script = Instance.new('LocalScript', NovaH)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVAHUB/main/2"))()
+	end)
+end
+coroutine.wrap(MONUDZD_fake_script)()
+local function LNLART_fake_script() -- KeyBoard.LocalScript 
+	local script = Instance.new('LocalScript', KeyBoard)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+	end)
+end
+coroutine.wrap(LNLART_fake_script)()
+local function TJSKC_fake_script() -- IceHub.LocalScript 
+	local script = Instance.new('LocalScript', IceHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+	end)
+end
+coroutine.wrap(TJSKC_fake_script)()
+local function BWVKA_fake_script() -- SwagM.LocalScript 
+	local script = Instance.new('LocalScript', SwagM)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+	end)
+end
+coroutine.wrap(BWVKA_fake_script)()
+local function RZCOBX_fake_script() -- ZenH.LocalScript 
+	local script = Instance.new('LocalScript', ZenH)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Kaizenofficiall/ZenHub/main/Loader", true))()
+	end)
+end
+coroutine.wrap(RZCOBX_fake_script)()
+local function VWVTRZ_fake_script() -- MainGUI.LocalScript 
 	local script = Instance.new('LocalScript', MainGUI)
 
 	script.Parent.Draggable = true
 	script.Parent.Active = true
 end
-coroutine.wrap(USHEHZP_fake_script)()
-function BKFWVGH_fake_script() -- X_2.LocalScript 
+coroutine.wrap(VWVTRZ_fake_script)()
+local function OSNDEG_fake_script() -- X_2.LocalScript 
 	local script = Instance.new('LocalScript', X_2)
 
 	local btn = script.Parent
@@ -2151,8 +2335,8 @@ function BKFWVGH_fake_script() -- X_2.LocalScript
 	
 	
 end
-coroutine.wrap(BKFWVGH_fake_script)()
-function ENXBA_fake_script() -- Icon.LocalScript 
+coroutine.wrap(OSNDEG_fake_script)()
+local function FGNZ_fake_script() -- Icon.LocalScript 
 	local script = Instance.new('LocalScript', Icon)
 
 	local btn = script.Parent
@@ -2168,4 +2352,4 @@ function ENXBA_fake_script() -- Icon.LocalScript
 		btn.Active = false
 	end)
 end
-coroutine.wrap(ENXBA_fake_script)()
+coroutine.wrap(FGNZ_fake_script)()
