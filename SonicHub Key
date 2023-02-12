@@ -33,7 +33,7 @@ local UICorner_12 = Instance.new("UICorner")
 --Properties:
 
 SonicHubKey.Name = "SonicHubKey"
-SonicHubKey.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SonicHubKey.Parent = game.CoreGui
 SonicHubKey.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Frame.Parent = SonicHubKey
