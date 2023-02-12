@@ -2,11 +2,6 @@
 -- Version: 3.2
 
 -- Instances:
-
-getgenv().SonicTKey = "KEY" --Key
-getgenv().RawLinkST = "https://pastebin.com/raw/etdqHmKi" --Script Raw Main Hub
-getgenv().LinkKeyST = "linkversise.vcom" --Link Key system
-
 local SonicHubKey = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
