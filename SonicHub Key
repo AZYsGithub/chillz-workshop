@@ -1,0 +1,256 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+local SonicHubKey = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Panel = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Main = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_7 = Instance.new("UICorner")
+local TextBox = Instance.new("TextBox")
+local UICorner_8 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_9 = Instance.new("UICorner")
+local Enter = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Copy = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Link = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+
+--Properties:
+
+SonicHubKey.Name = "SonicHubKey"
+SonicHubKey.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+SonicHubKey.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = SonicHubKey
+Frame.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Frame.Position = UDim2.new(0, 262, 0, 187)
+Frame.Size = UDim2.new(0, 500, 0, 229)
+
+UICorner.CornerRadius = UDim.new(0, 10)
+UICorner.Parent = Frame
+
+Panel.Name = "Panel"
+Panel.Parent = Frame
+Panel.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+Panel.Position = UDim2.new(-0.000234365463, 0, -0.00420774706, 0)
+Panel.Size = UDim2.new(0, 500, 0, 28)
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = Panel
+
+TextLabel.Parent = Panel
+TextLabel.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0679224879, 0, 0.00459671021, 0)
+TextLabel.Size = UDim2.new(0, 116, 0, 27)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "SonicTuru Hub - Key"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 16.000
+
+UICorner_3.Parent = TextLabel
+
+ImageLabel.Parent = Panel
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(0.0140000004, 0, 5.36441803e-07, 0)
+ImageLabel.Size = UDim2.new(0, 27, 0, 27)
+ImageLabel.Image = "rbxassetid://12462028268"
+
+TextButton.Parent = Panel
+TextButton.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+TextButton.Position = UDim2.new(0.930000007, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 26, 0, 26)
+TextButton.Font = Enum.Font.Ubuntu
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 23.000
+
+UICorner_4.Parent = TextButton
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Frame_2.Position = UDim2.new(0, 0, 0.117903933, 0)
+Frame_2.Size = UDim2.new(0, 242, 0, 202)
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = Frame_2
+
+ImageLabel_2.Parent = Frame_2
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(10, 10, 10)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ImageLabel_2.Position = UDim2.new(0.0790412799, 0, -0.00889874436, 0)
+ImageLabel_2.Size = UDim2.new(0, 202, 0, 202)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=12466405585"
+
+Main.Name = "Main"
+Main.Parent = Frame
+Main.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Main.Position = UDim2.new(0.482000023, 0, 0.117903933, 0)
+Main.Size = UDim2.new(0, 258, 0, 202)
+
+UICorner_6.CornerRadius = UDim.new(0, 10)
+UICorner_6.Parent = Main
+
+TextLabel_2.Parent = Main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_2.Position = UDim2.new(0.0620155036, 0, 0.212871283, 0)
+TextLabel_2.Size = UDim2.new(0, 153, 0, 21)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Please enter key to continue."
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+UICorner_7.Parent = TextLabel_2
+
+TextBox.Parent = Main
+TextBox.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+TextBox.Position = UDim2.new(0.0620155036, 0, 0.371287107, 0)
+TextBox.Size = UDim2.new(0, 207, 0, 31)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.PlaceholderText = "Please Enter A Valid Key."
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_8.Parent = TextBox
+
+TextLabel_3.Parent = Main
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+TextLabel_3.Size = UDim2.new(0, 258, 0, 29)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Welcome, [Loading...]"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+UICorner_9.Parent = TextLabel_3
+
+Enter.Name = "Enter"
+Enter.Parent = Main
+Enter.BackgroundColor3 = Color3.fromRGB(23, 100, 167)
+Enter.Position = UDim2.new(0.488372087, 0, 0.56930697, 0)
+Enter.Size = UDim2.new(0, 97, 0, 29)
+Enter.Font = Enum.Font.Ubuntu
+Enter.Text = "Enter"
+Enter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Enter.TextSize = 20.000
+
+UICorner_10.Parent = Enter
+
+Copy.Name = "Copy"
+Copy.Parent = Main
+Copy.BackgroundColor3 = Color3.fromRGB(23, 100, 167)
+Copy.Position = UDim2.new(0.0620155036, 0, 0.56930697, 0)
+Copy.Size = UDim2.new(0, 97, 0, 29)
+Copy.Font = Enum.Font.Ubuntu
+Copy.Text = "Get Key"
+Copy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copy.TextSize = 20.000
+
+UICorner_11.Parent = Copy
+
+Link.Name = "Link"
+Link.Parent = Main
+Link.BackgroundColor3 = Color3.fromRGB(23, 100, 167)
+Link.Position = UDim2.new(0.0620155036, 0, 0.762376249, 0)
+Link.Size = UDim2.new(0, 207, 0, 29)
+Link.Font = Enum.Font.Ubuntu
+Link.Text = "Join Our Server!"
+Link.TextColor3 = Color3.fromRGB(255, 255, 255)
+Link.TextSize = 20.000
+
+UICorner_12.Parent = Link
+
+-- Scripts:
+
+local function XXIGVFN_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	local btn = script.Parent
+	btn.MouseEnter:Connect(function()
+		btn.BackgroundColor3 = Color3.fromRGB(185, 0, 0)
+	end)
+	btn.MouseLeave:Connect(function()
+		btn.BackgroundColor3 = Color3.fromRGB(37, 37, 37)
+	end)
+	btn.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(XXIGVFN_fake_script)()
+local function PPTFBB_fake_script() -- TextLabel_3.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel_3)
+
+	local text = script.Parent
+	local a = game:GetService("Players")
+	text.Text = "Welcome, "..game.Players.LocalPlayer.DisplayName.."."
+end
+coroutine.wrap(PPTFBB_fake_script)()
+local function PGUI_fake_script() -- Enter.LocalScript 
+	local script = Instance.new('LocalScript', Enter)
+
+	local textbox = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if textbox.Text == getgenv().SonicTKey then
+		    	writefile("STHK.k", "getgenv().SavedKeyST = '"..textbox.Text.."'")
+            script.Parent.Parent.Parent.Parent:Destroy()
+			loadstring(game:HttpGet(getgenv().RawLinkST))()
+			
+		else
+			textbox.Text = "Incorrect Key!"
+			wait(3)
+			textbox.Text = ""
+		end
+	end)
+end
+coroutine.wrap(PGUI_fake_script)()
+local function RYCFLW_fake_script() -- Copy.LocalScript 
+	local script = Instance.new('LocalScript', Copy)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		setclipboard(getgenv().LinkKeyST)
+	end)
+end
+coroutine.wrap(RYCFLW_fake_script)()
+local function XJQOIPQ_fake_script() -- Link.LocalScript 
+	local script = Instance.new('LocalScript', Link)
+
+	local textbox = script.Parent.Parent.TextBox
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Text = "Link Copied!"
+		setclipboard("EVxNxE7KK3")
+		wait(5)
+		script.Parent.Text = "Join Our Server!"
+	end)
+end
+coroutine.wrap(XJQOIPQ_fake_script)()
+local function QPFBGZ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+end
+coroutine.wrap(QPFBGZ_fake_script)()
