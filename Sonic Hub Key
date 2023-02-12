@@ -214,6 +214,7 @@ local function PGUI_fake_script() -- Enter.LocalScript
 	
 	script.Parent.MouseButton1Click:Connect(function()
 		if textbox.Text == getgenv().SonicTKey then
+		    	writefile("STHK.k", "getgenv().SavedKeyST = "..textbox.Text.."")
             script.Parent.Parent.Parent.Parent:Destroy()
 			loadstring(game:HttpGet(getgenv().RawLinkST))()
 			
