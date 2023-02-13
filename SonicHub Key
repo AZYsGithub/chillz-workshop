@@ -213,11 +213,18 @@ local function PGUI_fake_script() -- Enter.LocalScript
 	local textbox = script.Parent.Parent.TextBox
 	
 	script.Parent.MouseButton1Click:Connect(function()
-		if textbox.Text == getgenv().SonicTKey or textbox.Text == getgenv().SonicTDevKey then
-		    	writefile("STHK.k", "getgenv().SavedKeyST = '"..textbox.Text.."'")
-            script.Parent.Parent.Parent.Parent:Destroy()
-			loadstring(game:HttpGet(getgenv().RawLinkST))()
-			
+		if textbox.Text == getgenv().SonicTDevKey then
+		    	
+                            if getgenv().SaveDevKeyST == true then
+                                writefile("STHK.k", "getgenv().SavedKeyST = '"..textbox.Text.."'")
+                            end
+                            script.Parent.Parent.Parent.Parent:Destroy()
+			    loadstring(game:HttpGet(getgenv().RawLinkST))()
+                        
+                elseif textbox.Text == getgenv().SonicTKey then
+                    writefile("STHK.k", "getgenv().SavedKeyST = '"..textbox.Text.."'")
+		    script.Parent.Parent.Parent.Parent:Destroy()
+		    loadstring(game:HttpGet(getgenv().RawLinkST))()
 		else
 			textbox.Text = "Incorrect Key!"
 			wait(3)
