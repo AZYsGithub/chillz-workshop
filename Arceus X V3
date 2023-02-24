@@ -300,7 +300,7 @@ ArceusXV3.Welcome.Parent = ArceusXV3.ArceusXV3
 
 ArceusXV3.Frame.Parent = ArceusXV3.Welcome
 ArceusXV3.Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ArceusXV3.Frame.BackgroundTransparency = 0.700
+ArceusXV3.Frame.BackgroundTransparency = 0.800
 ArceusXV3.Frame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 ArceusXV3.Frame.Position = UDim2.new(-0.0126087517, 0, -1.06783438, 0)
 ArceusXV3.Frame.Size = UDim2.new(100.583, 0, 10.5760002, 0)
