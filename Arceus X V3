@@ -651,7 +651,7 @@ ArceusXV3.TextLabel_6.BackgroundTransparency = 1.000
 ArceusXV3.TextLabel_6.Position = UDim2.new(0.78104192, 0, 0.0610428937, 0)
 ArceusXV3.TextLabel_6.Size = UDim2.new(0.218958065, 0, 0.938951015, 0)
 ArceusXV3.TextLabel_6.Font = Enum.Font.SourceSansBold
-ArceusXV3.TextLabel_6.Text = "100%"
+ArceusXV3.TextLabel_6.Text = "100%" --Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 ArceusXV3.TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 ArceusXV3.TextLabel_6.TextScaled = true
 ArceusXV3.TextLabel_6.TextSize = 35.000
@@ -2700,6 +2700,7 @@ local function LMEQBC_fake_script() -- ArceusXV3.TextButton.LocalScriptNew
 			local tweenInfo = TweenInfo.new(tweenTime, Enum.EasingStyle.Linear)
 	
 			-- Define the tween
+
 			local tween = TweenService:Create(frame, tweenInfo, {Position = endPos})
 	
 			-- Play the tween
@@ -3062,7 +3063,7 @@ local function DLQN_fake_script() -- ArceusXV3.SliderButton_3.LocalScript
 	local Mouse 		= game.Players.LocalPlayer:GetMouse() 	
 	local UIS			= game:GetService("UserInputService") 	
 	local Outer			= script.Parent.Parent					-- Slider / Container
-	local Inner 		= script.Parent 						-- Thing to drag across slider
+	local Inner 		= script.Parent 	--Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8					-- Thing to drag across slider
 	local MouseButton 	= Enum.UserInputType.MouseButton1 		-- Button to drag slider
 	local Percent = Instance.new("NumberValue", Outer)	-- A number value containing the perctage in decimal form.
 	local Max_Percent = 100									-- Max Percentage (Scale of slider)
@@ -3438,7 +3439,7 @@ local function NBIABOG_fake_script() -- ArceusXV3.ImageLabel_13.LocalScript
 				A = A .. "\n"
 			elseif c == "\t" then
 				A = A .. "\t"
-			else
+			else --Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 				A = A .. "\32"
 			end
 		end)
@@ -3643,7 +3644,7 @@ local function TBRP_fake_script() -- ArceusXV3.Home_2.LocalScript
 		end
 	end)
 end
-coroutine.wrap(TBRP_fake_script)()
+coroutine.wrap(TBRP_fake_script)() --Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 local function ZMWEPWN_fake_script() -- ArceusXV3.BuiltInHax_2.LocalScript 
 	local script = Instance.new('LocalScript', ArceusXV3.BuiltInHax_2)
 
