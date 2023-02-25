@@ -15,7 +15,7 @@
 local AZY = {};
 
 -- StarterGui.ArceusXV3
-AZY["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+AZY["1"] = Instance.new("ScreenGui", game.CoreGui);
 AZY["1"]["Name"] = [[ArceusXV3]];
 AZY["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 AZY["1"]["ResetOnSpawn"] = false;
