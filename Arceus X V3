@@ -4690,7 +4690,7 @@ task.spawn(C_86);
 local function C_c9()
 	local script = AZY["c9"];
 	script.Parent.MouseButton1Click:Connect(function()
-		setclipboard("EVxNxE7KK3")
+		setclipboard("qxafRm6Bad")
 	end)
 end;
 task.spawn(C_c9);
