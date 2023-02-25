@@ -4113,12 +4113,12 @@ AZY_MODULES[AZY["14a"]] = {
 		local module = {}
 
 		function module.Fix(textbox)
-			if textbox.Text:sub(1, 1) ~= "\n" then
+			--[[if textbox.Text:sub(1, 1) ~= "\n" then
 				textbox.Text = "\n" .. textbox.Text
 			end
 
 			textbox.Position = UDim2.new(0, -3,0,-textbox.TextSize)
-			textbox.Size = UDim2.new(1, 4,1, textbox.TextSize)
+			textbox.Size = UDim2.new(1, 4,1, textbox.TextSize)]]
 		end
 
 		return module
