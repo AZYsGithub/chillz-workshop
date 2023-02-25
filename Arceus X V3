@@ -1,6 +1,5 @@
---Made by Chillz AKA AZY#0348
-
 --[=[
+
     ___      _  _     __     _         _         ____   
   ,"___".   FJ  L]    FJ    FJ        FJ        [__  '. 
   FJ---L]  J |__| L  J  L  J |       J |        `--7 .' 
@@ -9,13 +8,14 @@
  J\_____/FJ__L  J__LJ____LJ________LJ________LJ________L
   J_____F |__L  J__||____||________||________||________|
                                                         
+ 
 ]=]
 
--- Instances: 357 | Scripts: 51 | Modules: 12
+-- Arceus X v3 Remake
 local AZY = {};
 
 -- StarterGui.ArceusXV3
-AZY["1"] = Instance.new("ScreenGui", game.CoreGui);
+AZY["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
 AZY["1"]["Name"] = [[ArceusXV3]];
 AZY["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 AZY["1"]["ResetOnSpawn"] = false;
@@ -27,7 +27,7 @@ AZY["2"]["Name"] = [[Welcome]];
 -- StarterGui.ArceusXV3.Welcome.Frame
 AZY["3"] = Instance.new("Frame", AZY["2"]);
 AZY["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["3"]["BackgroundTransparency"] = 0.800000011920929;
+AZY["3"]["BackgroundTransparency"] = 0.8999999761581421;
 AZY["3"]["Size"] = UDim2.new(100.58300018310547, 0, 10.576000213623047, 0);
 AZY["3"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
 AZY["3"]["Position"] = UDim2.new(-0.012608751654624939, 0, -1.0678343772888184, 0);
@@ -53,7 +53,7 @@ AZY["6"]["Size"] = UDim2.new(1.0180450677871704, 0, 1, 0);
 AZY["6"]["ScrollBarImageColor3"] = Color3.fromRGB(0, 0, 0);
 AZY["6"]["BorderColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["6"]["ScrollBarThickness"] = 7;
---Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
+
 -- StarterGui.ArceusXV3.Welcome.Welcome.ScrollingFrame.Title
 AZY["7"] = Instance.new("TextLabel", AZY["6"]);
 AZY["7"]["TextWrapped"] = true;
@@ -1346,7 +1346,7 @@ AZY["a2"]["Position"] = UDim2.new(0.34299999475479126, 0, 0.4300000071525574, 0)
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Changelogs.Credits.ScrollingFrame.Person.Desc.UITextSizeConstraint
 AZY["a3"] = Instance.new("UITextSizeConstraint", AZY["a2"]);
 AZY["a3"]["MaxTextSize"] = 25;
-
+-- Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Changelogs.Changelog
 AZY["a4"] = Instance.new("Frame", AZY["87"]);
 AZY["a4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
@@ -1453,7 +1453,7 @@ AZY["b0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["b0"]["Size"] = UDim2.new(0, 29, 0, 14);
 AZY["b0"]["Text"] = [[New]];
 AZY["b0"]["Position"] = UDim2.new(0.10899999737739563, 0, 0.05000000074505806, 0);
---Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
+
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Changelogs.Changelog.ScrollingFrame.ChangelogTab.TextLabel.UICorner
 AZY["b1"] = Instance.new("UICorner", AZY["b0"]);
 AZY["b1"]["CornerRadius"] = UDim.new(0, 4);
@@ -1534,7 +1534,7 @@ AZY["b9"]["Name"] = [[ChangelogTab2]];
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Changelogs.Changelog.ScrollingFrame.ChangelogTab2.UICorner
 AZY["ba"] = Instance.new("UICorner", AZY["b9"]);
 AZY["ba"]["CornerRadius"] = UDim.new(0, 15);
---Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8vv
+
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Changelogs.Changelog.ScrollingFrame.ChangelogTab2.TextLabel
 AZY["bb"] = Instance.new("TextLabel", AZY["b9"]);
 AZY["bb"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2027,7 +2027,7 @@ AZY["ee"]["Position"] = UDim2.new(-0.017000000923871994, 0, -0.10000000149011612
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.HaxPage.TextGrav
 AZY["ef"] = Instance.new("TextLabel", AZY["d0"]);
 AZY["ef"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["ef"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold,Enum.FontStyle.Normal);
+AZY["ef"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 AZY["ef"]["TextSize"] = 12;
 AZY["ef"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 AZY["ef"]["Size"] = UDim2.new(0, 50, 0, 11);
@@ -2035,7 +2035,7 @@ AZY["ef"]["Text"] = [[Gravity]];
 AZY["ef"]["Name"] = [[TextGrav]];
 AZY["ef"]["BackgroundTransparency"] = 1;
 AZY["ef"]["Position"] = UDim2.new(0.3269999921321869, 0, 0.8930000066757202, 0);
-
+-- Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.HaxPage.TextWs
 AZY["f0"] = Instance.new("TextLabel", AZY["d0"]);
 AZY["f0"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2149,7 +2149,7 @@ AZY["ff"]["CornerRadius"] = UDim.new(0, 5);
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.Aimbot.LocalScript
 AZY["100"] = Instance.new("LocalScript", AZY["fe"]);
 
-
+-- Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.BuiltInHax.Scripts.Aimbot.Info
 AZY["101"] = Instance.new("ImageLabel", AZY["fe"]);
 AZY["101"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2376,7 +2376,7 @@ AZY["11c"]["Size"] = UDim2.new(0.831805408000946, 0, 0.7551097869873047, 0);
 AZY["11c"]["Position"] = UDim2.new(0.1409205049276352, 0, 0.20551720261573792, 0);
 AZY["11c"]["Visible"] = false;
 AZY["11c"]["Name"] = [[Executor]];
---Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
+
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.UICorner
 AZY["11d"] = Instance.new("UICorner", AZY["11c"]);
 AZY["11d"]["CornerRadius"] = UDim.new(0, 15);
@@ -2522,179 +2522,178 @@ AZY["136"]["Name"] = [[Suggestions]];
 AZY["137"] = Instance.new("ModuleScript", AZY["12d"]);
 AZY["137"]["Name"] = [[Words]];
 
--- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.TextFixer
-AZY["138"] = Instance.new("ModuleScript", AZY["12d"]);
-AZY["138"]["Name"] = [[TextFixer]];
-
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor
-AZY["139"] = Instance.new("Frame", AZY["12d"]);
-AZY["139"]["BorderSizePixel"] = 0;
-AZY["139"]["BackgroundColor3"] = Color3.fromRGB(23, 27, 23);
-AZY["139"]["BackgroundTransparency"] = 0.4000000059604645;
-AZY["139"]["Size"] = UDim2.new(1, 0, 1, 0);
-AZY["139"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
-AZY["139"]["Name"] = [[Editor]];
+AZY["138"] = Instance.new("Frame", AZY["12d"]);
+AZY["138"]["BorderSizePixel"] = 0;
+AZY["138"]["BackgroundColor3"] = Color3.fromRGB(23, 27, 23);
+AZY["138"]["BackgroundTransparency"] = 0.4000000059604645;
+AZY["138"]["Size"] = UDim2.new(1, 0, 1, 0);
+AZY["138"]["BorderColor3"] = Color3.fromRGB(28, 43, 54);
+AZY["138"]["Name"] = [[Editor]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll
-AZY["13a"] = Instance.new("ScrollingFrame", AZY["139"]);
-AZY["13a"]["Active"] = true;
-AZY["13a"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
-AZY["13a"]["ElasticBehavior"] = Enum.ElasticBehavior.Always;
-AZY["13a"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
-AZY["13a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["13a"]["AutomaticCanvasSize"] = Enum.AutomaticSize.XY;
-AZY["13a"]["BackgroundTransparency"] = 0.9990000128746033;
-AZY["13a"]["Size"] = UDim2.new(1, 0, 1, 0);
-AZY["13a"]["ScrollBarImageColor3"] = Color3.fromRGB(64, 64, 64);
-AZY["13a"]["BorderColor3"] = Color3.fromRGB(53, 53, 53);
-AZY["13a"]["Name"] = [[Scroll]];
-AZY["13a"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+AZY["139"] = Instance.new("ScrollingFrame", AZY["138"]);
+AZY["139"]["Active"] = true;
+AZY["139"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+AZY["139"]["ElasticBehavior"] = Enum.ElasticBehavior.Always;
+AZY["139"]["TopImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
+AZY["139"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+AZY["139"]["AutomaticCanvasSize"] = Enum.AutomaticSize.XY;
+AZY["139"]["BackgroundTransparency"] = 0.9990000128746033;
+AZY["139"]["Size"] = UDim2.new(1, 0, 1, 0);
+AZY["139"]["ScrollBarImageColor3"] = Color3.fromRGB(64, 64, 64);
+AZY["139"]["BorderColor3"] = Color3.fromRGB(53, 53, 53);
+AZY["139"]["Name"] = [[Scroll]];
+AZY["139"]["BottomImage"] = [[rbxasset://textures/ui/Scroll/scroll-middle.png]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source
-AZY["13b"] = Instance.new("TextBox", AZY["13a"]);
-AZY["13b"]["CursorPosition"] = -1;
-AZY["13b"]["TextSize"] = 17;
-AZY["13b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-AZY["13b"]["TextStrokeColor3"] = Color3.fromRGB(41, 41, 41);
-AZY["13b"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-AZY["13b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["13b"]["TextColor3"] = Color3.fromRGB(239, 239, 239);
-AZY["13b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-AZY["13b"]["MultiLine"] = true;
-AZY["13b"]["BackgroundTransparency"] = 0.9990000128746033;
-AZY["13b"]["Size"] = UDim2.new(1, -44, 1, -5);
-AZY["13b"]["Text"] = [[]];
-AZY["13b"]["Position"] = UDim2.new(0, 44, 0, 5);
-AZY["13b"]["AutomaticSize"] = Enum.AutomaticSize.XY;
-AZY["13b"]["Name"] = [[Source]];
-AZY["13b"]["ClearTextOnFocus"] = false;
+AZY["13a"] = Instance.new("TextBox", AZY["139"]);
+AZY["13a"]["TextSize"] = 17;
+AZY["13a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+AZY["13a"]["TextStrokeColor3"] = Color3.fromRGB(41, 41, 41);
+AZY["13a"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+AZY["13a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+AZY["13a"]["TextColor3"] = Color3.fromRGB(239, 239, 239);
+AZY["13a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+AZY["13a"]["MultiLine"] = true;
+AZY["13a"]["BackgroundTransparency"] = 0.9990000128746033;
+AZY["13a"]["Size"] = UDim2.new(1, -44, 1, -5);
+AZY["13a"]["Text"] = [[]];
+AZY["13a"]["Position"] = UDim2.new(0, 44, 0, 5);
+AZY["13a"]["AutomaticSize"] = Enum.AutomaticSize.XY;
+AZY["13a"]["Name"] = [[Source]];
+AZY["13a"]["ClearTextOnFocus"] = false;
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source.LineHighlight
-AZY["13c"] = Instance.new("Frame", AZY["13b"]);
-AZY["13c"]["BorderSizePixel"] = 0;
-AZY["13c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["13c"]["AnchorPoint"] = Vector2.new(0, 0.5);
-AZY["13c"]["BackgroundTransparency"] = 0.9399999976158142;
-AZY["13c"]["Size"] = UDim2.new(1, 0, 0, 17);
-AZY["13c"]["Position"] = UDim2.new(0, -10, 0, 9);
-AZY["13c"]["Name"] = [[LineHighlight]];
+AZY["13b"] = Instance.new("Frame", AZY["13a"]);
+AZY["13b"]["BorderSizePixel"] = 0;
+AZY["13b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+AZY["13b"]["AnchorPoint"] = Vector2.new(0, 0.5);
+AZY["13b"]["BackgroundTransparency"] = 0.9399999976158142;
+AZY["13b"]["Size"] = UDim2.new(1, 0, 0, 17);
+AZY["13b"]["Position"] = UDim2.new(0, -10, 0, 9);
+AZY["13b"]["Name"] = [[LineHighlight]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source.Hidden
-AZY["13d"] = Instance.new("TextLabel", AZY["13b"]);
-AZY["13d"]["BorderSizePixel"] = 0;
-AZY["13d"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-AZY["13d"]["BackgroundColor3"] = Color3.fromRGB(27, 32, 27);
-AZY["13d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-AZY["13d"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-AZY["13d"]["TextSize"] = 22;
-AZY["13d"]["TextColor3"] = Color3.fromRGB(249, 66, 164);
-AZY["13d"]["Size"] = UDim2.new(1, 0, 1, 0);
-AZY["13d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-AZY["13d"]["Text"] = [[*script hidden*]];
-AZY["13d"]["Name"] = [[Hidden]];
-AZY["13d"]["Visible"] = false;
+AZY["13c"] = Instance.new("TextLabel", AZY["13a"]);
+AZY["13c"]["BorderSizePixel"] = 0;
+AZY["13c"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+AZY["13c"]["BackgroundColor3"] = Color3.fromRGB(27, 32, 27);
+AZY["13c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+AZY["13c"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+AZY["13c"]["TextSize"] = 22;
+AZY["13c"]["TextColor3"] = Color3.fromRGB(249, 66, 164);
+AZY["13c"]["Size"] = UDim2.new(1, 0, 1, 0);
+AZY["13c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+AZY["13c"]["Text"] = [[*script hidden*]];
+AZY["13c"]["Name"] = [[Hidden]];
+AZY["13c"]["Visible"] = false;
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source.Suggestion
-AZY["13e"] = Instance.new("TextButton", AZY["13b"]);
-AZY["13e"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-AZY["13e"]["BackgroundColor3"] = Color3.fromRGB(40, 40, 40);
-AZY["13e"]["TextSize"] = 17;
-AZY["13e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-AZY["13e"]["TextColor3"] = Color3.fromRGB(244, 244, 244);
-AZY["13e"]["Visible"] = false;
-AZY["13e"]["Size"] = UDim2.new(0, 130, 0, 26);
-AZY["13e"]["Name"] = [[Suggestion]];
-AZY["13e"]["BorderColor3"] = Color3.fromRGB(60, 60, 60);
-AZY["13e"]["Text"] = [[keyword]];
-AZY["13e"]["AutomaticSize"] = Enum.AutomaticSize.X;
+AZY["13d"] = Instance.new("TextButton", AZY["13a"]);
+AZY["13d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+AZY["13d"]["BackgroundColor3"] = Color3.fromRGB(40, 40, 40);
+AZY["13d"]["TextSize"] = 17;
+AZY["13d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+AZY["13d"]["TextColor3"] = Color3.fromRGB(244, 244, 244);
+AZY["13d"]["Visible"] = false;
+AZY["13d"]["Size"] = UDim2.new(0, 130, 0, 26);
+AZY["13d"]["Name"] = [[Suggestion]];
+AZY["13d"]["BorderColor3"] = Color3.fromRGB(60, 60, 60);
+AZY["13d"]["Text"] = [[keyword]];
+AZY["13d"]["AutomaticSize"] = Enum.AutomaticSize.X;
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source.Suggestion.TextPadding
-AZY["13f"] = Instance.new("UIPadding", AZY["13e"]);
-AZY["13f"]["Name"] = [[TextPadding]];
-AZY["13f"]["PaddingLeft"] = UDim.new(0, 30);
+AZY["13e"] = Instance.new("UIPadding", AZY["13d"]);
+AZY["13e"]["Name"] = [[TextPadding]];
+AZY["13e"]["PaddingLeft"] = UDim.new(0, 30);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source.Suggestion.Icon
-AZY["140"] = Instance.new("ImageLabel", AZY["13e"]);
-AZY["140"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["140"]["Image"] = [[rbxassetid://413365069]];
-AZY["140"]["Size"] = UDim2.new(0, 26, 0, 26);
-AZY["140"]["Name"] = [[Icon]];
-AZY["140"]["BackgroundTransparency"] = 1;
-AZY["140"]["Position"] = UDim2.new(0, -30, 0, 0);
+AZY["13f"] = Instance.new("ImageLabel", AZY["13d"]);
+AZY["13f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+AZY["13f"]["Image"] = [[rbxassetid://413365069]];
+AZY["13f"]["Size"] = UDim2.new(0, 26, 0, 26);
+AZY["13f"]["Name"] = [[Icon]];
+AZY["13f"]["BackgroundTransparency"] = 1;
+AZY["13f"]["Position"] = UDim2.new(0, -30, 0, 0);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Source.Suggestion.Icon.UIAspectRatioConstraint
-AZY["141"] = Instance.new("UIAspectRatioConstraint", AZY["140"]);
+AZY["140"] = Instance.new("UIAspectRatioConstraint", AZY["13f"]);
 
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left
-AZY["142"] = Instance.new("Frame", AZY["13a"]);
-AZY["142"]["BorderSizePixel"] = 0;
-AZY["142"]["BackgroundColor3"] = Color3.fromRGB(30, 30, 30);
-AZY["142"]["BackgroundTransparency"] = 0.4000000059604645;
-AZY["142"]["Size"] = UDim2.new(0, 27, 1, 0);
-AZY["142"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-AZY["142"]["Name"] = [[Left]];
+AZY["141"] = Instance.new("Frame", AZY["139"]);
+AZY["141"]["BorderSizePixel"] = 0;
+AZY["141"]["BackgroundColor3"] = Color3.fromRGB(30, 30, 30);
+AZY["141"]["BackgroundTransparency"] = 0.4000000059604645;
+AZY["141"]["Size"] = UDim2.new(0, 27, 1, 0);
+AZY["141"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+AZY["141"]["Name"] = [[Left]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.Right
-AZY["143"] = Instance.new("Frame", AZY["142"]);
-AZY["143"]["BorderSizePixel"] = 0;
-AZY["143"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
-AZY["143"]["BackgroundTransparency"] = 0.4000000059604645;
-AZY["143"]["Size"] = UDim2.new(0, 8, 1, 0);
-AZY["143"]["Position"] = UDim2.new(1, 0, 0, 0);
-AZY["143"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-AZY["143"]["Name"] = [[Right]];
+AZY["142"] = Instance.new("Frame", AZY["141"]);
+AZY["142"]["BorderSizePixel"] = 0;
+AZY["142"]["BackgroundColor3"] = Color3.fromRGB(36, 36, 36);
+AZY["142"]["BackgroundTransparency"] = 0.4000000059604645;
+AZY["142"]["Size"] = UDim2.new(0, 8, 1, 0);
+AZY["142"]["Position"] = UDim2.new(1, 0, 0, 0);
+AZY["142"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+AZY["142"]["Name"] = [[Right]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.Right.BottomFade
-AZY["144"] = Instance.new("UIGradient", AZY["143"]);
-AZY["144"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(0.931, 0),NumberSequenceKeypoint.new(1.000, 1)};
-AZY["144"]["Name"] = [[BottomFade]];
-AZY["144"]["Rotation"] = 90;
+AZY["143"] = Instance.new("UIGradient", AZY["142"]);
+AZY["143"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(0.931, 0),NumberSequenceKeypoint.new(1.000, 1)};
+AZY["143"]["Name"] = [[BottomFade]];
+AZY["143"]["Rotation"] = 90;
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.Right.Shadow
-AZY["145"] = Instance.new("Frame", AZY["143"]);
-AZY["145"]["BorderSizePixel"] = 0;
-AZY["145"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-AZY["145"]["BackgroundTransparency"] = 0.800000011920929;
-AZY["145"]["Size"] = UDim2.new(0, 5, 1, 0);
-AZY["145"]["Position"] = UDim2.new(1, 0, 0, 0);
-AZY["145"]["AutomaticSize"] = Enum.AutomaticSize.Y;
-AZY["145"]["Name"] = [[Shadow]];
+AZY["144"] = Instance.new("Frame", AZY["142"]);
+AZY["144"]["BorderSizePixel"] = 0;
+AZY["144"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+AZY["144"]["BackgroundTransparency"] = 0.800000011920929;
+AZY["144"]["Size"] = UDim2.new(0, 5, 1, 0);
+AZY["144"]["Position"] = UDim2.new(1, 0, 0, 0);
+AZY["144"]["AutomaticSize"] = Enum.AutomaticSize.Y;
+AZY["144"]["Name"] = [[Shadow]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.Right.Shadow.UIGradient
-AZY["146"] = Instance.new("UIGradient", AZY["145"]);
-AZY["146"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(1.000, 1)};
+AZY["145"] = Instance.new("UIGradient", AZY["144"]);
+AZY["145"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(1.000, 1)};
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.Lines
-AZY["147"] = Instance.new("TextLabel", AZY["142"]);
-AZY["147"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-AZY["147"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-AZY["147"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-AZY["147"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-AZY["147"]["TextSize"] = 17;
-AZY["147"]["TextColor3"] = Color3.fromRGB(242, 242, 242);
-AZY["147"]["AutomaticSize"] = Enum.AutomaticSize.X;
-AZY["147"]["Size"] = UDim2.new(1, -5, 1, -7);
-AZY["147"]["Text"] = [[1]];
-AZY["147"]["Name"] = [[Lines]];
-AZY["147"]["BackgroundTransparency"] = 0.9990000128746033;
-AZY["147"]["Position"] = UDim2.new(0, 5, 0, 7);
+AZY["146"] = Instance.new("TextLabel", AZY["141"]);
+AZY["146"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+AZY["146"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+AZY["146"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+AZY["146"]["FontFace"] = Font.new([[rbxasset://fonts/families/Inconsolata.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+AZY["146"]["TextSize"] = 17;
+AZY["146"]["TextColor3"] = Color3.fromRGB(242, 242, 242);
+AZY["146"]["AutomaticSize"] = Enum.AutomaticSize.X;
+AZY["146"]["Size"] = UDim2.new(1, -5, 1, -7);
+AZY["146"]["Text"] = [[1]];
+AZY["146"]["Name"] = [[Lines]];
+AZY["146"]["BackgroundTransparency"] = 0.9990000128746033;
+AZY["146"]["Position"] = UDim2.new(0, 5, 0, 7);
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.Lines.BottomFade
-AZY["148"] = Instance.new("UIGradient", AZY["147"]);
-AZY["148"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(0.931, 0),NumberSequenceKeypoint.new(1.000, 1)};
-AZY["148"]["Name"] = [[BottomFade]];
-AZY["148"]["Rotation"] = 90;
+AZY["147"] = Instance.new("UIGradient", AZY["146"]);
+AZY["147"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(0.931, 0),NumberSequenceKeypoint.new(1.000, 1)};
+AZY["147"]["Name"] = [[BottomFade]];
+AZY["147"]["Rotation"] = 90;
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.AdaptSize
-AZY["149"] = Instance.new("LocalScript", AZY["142"]);
-AZY["149"]["Name"] = [[AdaptSize]];
+AZY["148"] = Instance.new("LocalScript", AZY["141"]);
+AZY["148"]["Name"] = [[AdaptSize]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.BottomFade
-AZY["14a"] = Instance.new("UIGradient", AZY["142"]);
-AZY["14a"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(0.931, 0),NumberSequenceKeypoint.new(1.000, 1)};
-AZY["14a"]["Name"] = [[BottomFade]];
-AZY["14a"]["Rotation"] = 90;
+AZY["149"] = Instance.new("UIGradient", AZY["141"]);
+AZY["149"]["Transparency"] = NumberSequence.new{NumberSequenceKeypoint.new(0.000, 0),NumberSequenceKeypoint.new(0.931, 0),NumberSequenceKeypoint.new(1.000, 1)};
+AZY["149"]["Name"] = [[BottomFade]];
+AZY["149"]["Rotation"] = 90;
+
+-- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.TextFixer
+AZY["14a"] = Instance.new("ModuleScript", AZY["12d"]);
+AZY["14a"]["Name"] = [[TextFixer]];
 
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.ResetTextBox
 AZY["14b"] = Instance.new("TextButton", AZY["11c"]);
@@ -2768,7 +2767,7 @@ AZY["155"] = Instance.new("Frame", AZY["154"]);
 AZY["155"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
 AZY["155"]["Size"] = UDim2.new(0, 3, 0, 25);
 AZY["155"]["Position"] = UDim2.new(0.004999999888241291, 0, 0.1889999955892563, 0);
-
+-- Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 -- StarterGui.ArceusXV3.MainUI.MainFrame.TabBar.Home.Frame.UICorner
 AZY["156"] = Instance.new("UICorner", AZY["155"]);
 AZY["156"]["CornerRadius"] = UDim.new(1, 1);
@@ -3069,7 +3068,7 @@ AZY_MODULES[AZY["131"]] = {
 
 		--[[
 			Might want to fix it manually because adding another \n
-			might cause some instability 
+			might cause some instability
 		]]
 				textFixer.Fix(self.Editor.Scroll.Source.Syntax)
 
@@ -4103,27 +4102,27 @@ AZY_MODULES[AZY["137"]] = {
 
 	end;
 };
-AZY_MODULES[AZY["138"]] = {
+AZY_MODULES[AZY["14a"]] = {
 	Closure = function()
-		local script = AZY["138"];
+		local script = AZY["14a"];
 		-- Fixes a Roblox bug with RichText
 
 		-- If the bug gets fixed, this will break the editor (visually).
 		-- In this case, please remove any instances of this module being used.
 
-		--
 		local module = {}
 
 		function module.Fix(textbox)
-			--[[if textbox.Text:sub(1, 1) ~= "\n" then
+			if textbox.Text:sub(1, 1) ~= "\n" then
 				textbox.Text = "\n" .. textbox.Text
 			end
 
-			textbox.Position = UDim2.new(0, -3.5,0,-13.9)
-			textbox.Size = UDim2.new(1, 4,1, textbox.TextSize)]]
+			textbox.Position = UDim2.new(0, -3,0,-textbox.TextSize)
+			textbox.Size = UDim2.new(1, 4,1, textbox.TextSize)
 		end
 
 		return module
+
 	end;
 };
 -- StarterGui.ArceusXV3.Welcome.Welcome.ScrollingFrame.Text.LocalScript
@@ -4204,6 +4203,7 @@ local function C_e()
 		--0, 900,0, 900
 		--100, -150, 100, -100
 		local function movearc()
+			-- Mаdе bу A​​​Z​​​Y#​0​​​3​​​4​​​8
 
 			local textn = gui.Parent.AnimationIntro.NameLogo
 			local frame1 = textn
@@ -4953,8 +4953,8 @@ local function C_12c()
 end;
 task.spawn(C_12c);
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript.ScriptEditor.Editor.Scroll.Left.AdaptSize
-local function C_149()
-	local script = AZY["149"];
+local function C_148()
+	local script = AZY["148"];
 	local defaultSize = script.Parent.Size
 	local textbox = script.Parent.Parent.Source
 
@@ -4969,7 +4969,7 @@ local function C_149()
 		)
 	end)
 end;
-task.spawn(C_149);
+task.spawn(C_148);
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.ResetTextBox.LocalScript
 local function C_14d()
 	local script = AZY["14d"];
