@@ -4121,7 +4121,7 @@ AZY_MODULES[AZY["148"]] = {
 				textbox.Text = "\n" .. textbox.Text
 			end
 
-			textbox.Position = UDim2.new(0, -3.5,0,-13.9)
+			textbox.Position = UDim2.new(0, -3.5,0,-8.9)
 			textbox.Size = UDim2.new(1, 4,1, textbox.TextSize)
 		end
 
