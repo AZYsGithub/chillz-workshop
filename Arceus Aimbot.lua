@@ -4,8 +4,8 @@
 		Remade and optimized by Riky47#3355 for Arceus X
 		# spdmteam.com
 		
-		Edited and fixed by AZY#0348 for Fluxus / Hydrogen Compatibility
-        # Chillz and Maik
+		Fixed by .chill.z.
+                # Chillz
 ]]
 
 local Script_Title = "Arceus X <font color=\"rgb(255, 0, 0)\">|</font> Aimbot"
@@ -590,7 +590,7 @@ end)
 runService.RenderStepped:Connect(function()
 	local closest = getClosestPlayerToCursor(aimpart)
 	if enabled and closest then
-		local aimobj = closest.Character:FindFirstChild(aimpart) or closest.Character:FindFirstChild("UpperTorso") -- If not found then should be R15 Torso
+		local aimobj = closest.Character:FindFirstChild(aimpart) or closest.Character:FindFirstChild("Head") -- If not found then should be R15 Torso (Updated: Changed to Head.)
 		if aimobj then
 			lookAt(workspace.CurrentCamera.CFrame.p, aimobj.Position)
 		end
